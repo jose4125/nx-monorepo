@@ -1,0 +1,9 @@
+{
+  "name": "app-products",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/app-products/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project app-products --web",
+  "targets": {}
+}

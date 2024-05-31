@@ -66,5 +66,14 @@
         "linter": "eslint"
       }
     }
+  },
+  "release": {
+    "projectsRelationship": "independent",
+    "version": {
+      "conventionalCommits": true
+    },
+    "changelog": {
+      "projectChangelogs": true
+    }
   }
 }

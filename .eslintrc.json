@@ -1,5 +1,9 @@
 {
   "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.base.json" // path of tsconfig file
+  },
   "ignorePatterns": ["**/*"],
   "plugins": ["@nx"],
   "overrides": [
@@ -23,12 +27,18 @@
     },
     {
       "files": ["*.ts", "*.tsx"],
-      "extends": ["plugin:@nx/typescript"],
+      "extends": [
+        "airbnb",
+        "airbnb-typescript",
+        "airbnb/hooks",
+        "plugin:react/jsx-runtime",
+        "plugin:@nx/typescript"
+      ],
       "rules": {}
     },
     {
       "files": ["*.js", "*.jsx"],
-      "extends": ["plugin:@nx/javascript"],
+      "extends": ["airbnb", "airbnb/hooks", "plugin:@nx/javascript"],
       "rules": {}
     },
     {
