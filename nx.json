@@ -68,6 +68,7 @@
     }
   },
   "release": {
+    "projects": ["app-root", "app-products"],
     "projectsRelationship": "independent",
     "version": {
       "conventionalCommits": true
