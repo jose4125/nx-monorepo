@@ -7,6 +7,7 @@ export function App() {
   return (
     <div>
       <NxWelcome title="app-root" />
+      <p>hola mundo</p>
     </div>
   );
 }
