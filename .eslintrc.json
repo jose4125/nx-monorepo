@@ -34,12 +34,12 @@
         "plugin:react/jsx-runtime",
         "plugin:@nx/typescript"
       ],
-      "rules": {}
+      "rules": { "import/no-extraneous-dependencies": "off" }
     },
     {
       "files": ["*.js", "*.jsx"],
       "extends": ["airbnb", "airbnb/hooks", "plugin:@nx/javascript"],
-      "rules": {}
+      "rules": { "import/no-extraneous-dependencies": "off" }
     },
     {
       "files": ["*.spec.ts", "*.spec.tsx", "*.spec.js", "*.spec.jsx"],
