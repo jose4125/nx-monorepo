@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-package-json": "node scripts/create-package-json.js",
+    "custom-build": "nx build && npm run copy-package-json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
